@@ -1,7 +1,7 @@
 import { auth, provider } from "../firebase";
 import { signInWithPopup } from "firebase/auth";
 import { useNavigate } from "react-router-dom";
-import { motion } from "framer-motion";
+import { motion } from "motion/react";
 
 export default function Login({ setIsAuth }) {
     let navigate = useNavigate();

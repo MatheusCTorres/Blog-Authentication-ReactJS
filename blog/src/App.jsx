@@ -8,7 +8,6 @@ import { auth } from "./firebase"
 import './App.css'
 
 function App() {
-
   const [isAuth, setIsAuth] = useState(localStorage.getItem("isAuth"))
 
   const signUserOut = () => {
